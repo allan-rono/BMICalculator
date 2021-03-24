@@ -1,3 +1,5 @@
+Author: Allan Rono
+
 # BMICalculator
 Body Mass Index Calculator
 
@@ -42,3 +44,7 @@ Height	Weight Range	BMI	Weight Status
 125 lbs to 168 lbs	18.5 to 24.9	Normal or Healthy Weight
 169 lbs to 202 lbs	25.0 to 29.9	Overweight
 203 lbs or more	30 or higher	Obese
+
+# Sources
+
+https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#:~:text=How%20is%20BMI%20calculated%3F,-BMI%20is%20calculated&text=With%20the%20metric%20system%2C%20the,to%20obtain%20height%20in%20meters.
