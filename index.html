@@ -12,44 +12,73 @@
 
 <body>
     <header>
-        <h1 class="display-1">Body Mass Index Calculator</h1>
+        <h1 class="p-3 mb-2 bg-dark text-white" class="display-1">BODY MASS INDEX CALCULATOR (BMI)</h1>
     </header>
-    <hr>
+    <br>
     <main>
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col col-lg-2">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">kg</span>
-                        <input id="kilograms" type="text" class="form-control">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">How is BMI used?</h5>
+                            <p class="card-text">BMI can be a screening tool, but it does not diagnose the body fatness or health of an individual. To determine if BMI
+                            is a health risk, a healthcare provider performs further assessments. Such assessments include skinfold thickness
+                            measurements, evaluations of diet, physical activity, and family history</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">How good is BMI as an indicator of body fatness?</h5>
+                            <p class="card-text">The correlation between the BMI and body fatness is fairly strong but even if two people have the same BMI,
+                            their level of body fatness may differ</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">In general</h5>
+                            <p class="card-text">At the same BMI, women tend to have more body fat than men.
+                            At the same BMI, older people, on average, tend to have more body fat than younger adults.
+                            At the same BMI, athletes have less body fat than do non-athletes</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-md-center">
-                <div class="col col-lg-2">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">cm</span>
-                        <input id="centimeters" type="text" class="form-control">
+                <div class="col">
+                    <div class="row justify-content-md-center">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Kilograms</span>
+                                <input id="kilograms" type="text" class="form-control">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-md-center">
-                <div class="col col-lg-2">
-                    <button id="submit" class="btn btn-success">Get BMI</button>
-                </div>
-            </div>
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
-                    <p class="display-4" id="answer"></p>
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Centimeters</span>
+                                <input id="centimeters" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-17">
+                            <button id="submit" class="btn btn-success">Get BMI</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto">
+                            <p class="display-4" id="answer"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <hr>
-    <footer>
-
-    </footer>
-
     <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
