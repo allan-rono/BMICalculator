@@ -1,7 +1,7 @@
 # BMICalculator
 Body Mass Index Calculator
 
-#How is BMI calculated?
+# How is BMI calculated?
 BMI is calculated the same way for both adults and children. The calculation is based on the following formulas:
 
 BMI is calculated the same way for both adults and children. The calculation is based on the following formulas:
@@ -22,7 +22,8 @@ Calculate BMI by dividing weight in pounds (lbs) by height in inches (in) square
 Example: Weight = 150 lbs, Height = 5’5″ (65″)
 Calculation: [150 ÷ (65)2] x 703 = 24.96
 
-#How is BMI interpreted for adults?
+# How is BMI interpreted for adults?
+
 For adults 20 years old and older, BMI is interpreted using standard weight status categories. These categories are the same for men and women of all body types and ages.
 
 The standard weight status categories associated with BMI ranges for adults are shown in the following table.
